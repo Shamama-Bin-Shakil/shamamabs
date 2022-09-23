@@ -1,0 +1,50 @@
+@media only screen and (max-width:1228px) {
+    .heroMain {
+        width: 1000px;
+    }
+    .hero-left-side h1 {
+        font-size: 40px;
+    }
+}
+
+@media only screen and (max-width:1050px) {
+    .heroMain {
+        width: 800px;
+    }
+    .hero-left-side h1 {
+        font-size: 40px;
+    }
+    .sectionHeading h1 {
+        font-size: 35px;
+    }
+}
+
+
+@media only screen and (max-width:830px) {
+    .heroMain {
+        width: 800px;
+        margin-top: 60px;
+        flex-direction: column;
+    }
+    .heroMain .hero-left-side {
+        width: 80%;
+    }
+    .heroMain .hero-right-side {
+        width: 80%;
+    }
+
+    .hero-left-side h1 {
+        font-size: 30px;
+    }
+}
+
+
+@media only screen and (max-width:440px) {
+    header nav .logo h1 {
+        font-size: 20px;
+    }
+    .skill-item .skill {
+        width: 115px;
+        height: 115px;
+    }
+}
